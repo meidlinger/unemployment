@@ -79,13 +79,6 @@ under the License.
         <field use-when="fixedAsset==null&amp;&amp;fixedAssetId==null" name="fixedAssetId"><text size="20" maxlength="20"/></field>
         <field use-when="fixedAsset==null&amp;&amp;fixedAssetId!=null" name="fixedAssetId" tooltip="${uiLabelMap.CommonCannotBeFound}:[${fixedAssetId}]"><text size="20" maxlength="20"/></field>
 
-        <field name="fixedAssetTypeId">
-            <drop-down allow-empty="false">
-                <entity-options entity-name="FixedAssetType">
-                    <entity-order-by field-name="description"/>
-                </entity-options>
-            </drop-down>
-        </field>
         <field name="instanceOfProductId"><lookup target-form-name="LookupProduct"/></field>
         <field name="classEnumId">
             <drop-down allow-empty="true">
