@@ -3501,7 +3501,7 @@
         <value xml:lang="ar">فاتورة مبيعات جديدة</value>
         <value xml:lang="cs">Nová prodejní faktura</value>
         <value xml:lang="de">Neue Verkaufsrechnung</value>
-        <value xml:lang="en">New CJM Sales Invoice</value>
+        <value xml:lang="en">New Sales Invoice</value>
         <value xml:lang="fr">Nouvelle facture de ventes</value>
         <value xml:lang="hi-IN">नया बिक्री चलाना बनाएँ</value>
         <value xml:lang="it">Nuova Fattura di Vendita</value>
@@ -6102,7 +6102,7 @@
         <value xml:lang="ar">دليل أصل ثابت</value>
         <value xml:lang="cs">Kód dlouhodobého majetku</value>
         <value xml:lang="de">Anlage ID</value>
-        <value xml:lang="en">Fixed Asset Id</value>
+        <value xml:lang="en">First Name </value>
         <value xml:lang="es">Id Activo Fijo</value>
         <value xml:lang="fr">Réf. de l'immobilisation</value>
         <value xml:lang="hi-IN">अचल संपत्ति क्रमांक</value>
@@ -19756,7 +19756,7 @@
     <property key="FormFieldTitle_parentFixedAssetId">
         <value xml:lang="ar">دليل الأصل الثابت الأم</value>
         <value xml:lang="de">Übergeordnete Anlage</value>
-        <value xml:lang="en">Fixed Asset Parent Id</value>
+        <value xml:lang="en">Last Name</value>
         <value xml:lang="es">Id Padre Activo Fijo</value>
         <value xml:lang="fr">Immobilisation parente</value>
         <value xml:lang="hi-IN">अचल संपत्ति पेरेंट क्रमांक</value>
