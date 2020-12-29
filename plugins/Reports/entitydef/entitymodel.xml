@@ -27,5 +27,23 @@ under the License.
     <description>None</description>
     <copyright></copyright>
     <version></version>
+	
+	<entity entity-name="ReportsType" package-name="org.apache.ofbiz.reports" title="Reports Type Entity">
+        <field name="ReportsTypeId" type="id"><description>primary sequenced ID</description></field>
+        <field name="description" type="description"></field>
+        <prim-key field="ReportDemoTypeId"/>
+    </entity>
+  
+    <entity entity-name="Reports" package-name="org.apache.ofbiz.reports" title="Reports Entity">
+        <field name="ReportsId" type="id"><description>primary sequenced ID</description></field>
+        <field name="ReportsTypeId" type="id"></field>
+        <field name="firstName" type="name"></field>
+        <field name="lastName" type="name"></field>
+        <field name="comments" type="comment"></field>
+        <prim-key field="ReportsId"/>
+        <relation type="one" fk-name="ODEM_OD_TYPE_ID" rel-entity-name="ReportsType">
+            <key-map field-name="ReportsTypeId"/>
+        </relation>
+    </entity>
 
 </entitymodel>
