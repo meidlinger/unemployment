@@ -20,15 +20,15 @@ under the License.
 
 <resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/ofbiz-properties.xsd">
     <property key="ReportsApplication">
-        <value xml:lang="en_US">Reports Application</value>
+        <value xml:lang="en">Reports Application</value>
     </property>
     <property key="ReportsCompanyName">
-        <value xml:lang="en_US">OFBiz: Reports</value>
+        <value xml:lang="en">OFBiz: Reports</value>
     </property>
     <property key="ReportsCompanySubtitle">
-        <value xml:lang="en_US">Part of the Apache OFBiz Family of Open Source Software</value>
+        <value xml:lang="en">Part of the Apache OFBiz Family of Open Source Software</value>
     </property>
     <property key="ReportsViewPermissionError">
-        <value xml:lang="en_US">You are not allowed to view this page.</value>
+        <value xml:lang="en">You are not allowed to view this page.</value>
     </property>
 </resource>
