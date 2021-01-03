@@ -26,8 +26,7 @@ under the License.
 
     <service name="noSyntaxError" engine="interface">
         <description>
-            <auto-attributes include="pk" mode="OUT" optional="false"/>
-			<auto-attributes include="nonpk" mode="IN" optional="false"/> 
+            Dummy service to prevent empty files and syntax error - Remove when the 1st real service will be added here 
         </description>
     </service> 
     
