@@ -19,6 +19,5 @@ under the License.
 -->
 
 <entity-engine-xml>
-	<ReportsType ReportsTypeId="INTERNAL" description="Internal Demo - Office"/>
-	<ReportsType ReportsTypeId="EXTERNAL" description="External Demo - On Site"/>
+
 </entity-engine-xml>
