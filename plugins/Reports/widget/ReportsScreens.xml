@@ -29,9 +29,7 @@ under the License.
             <widgets>
                 <decorator-screen name="ReportsCommonDecorator" location="${parameters.mainDecoratorLocation}">
                     <decorator-section name="body">
-					<screenlet title="Unemployment Search">
-						<label text="Search the database based on your parameters"/>
-							<include-form name="AddReports" location="component://Reports/widget/ReportsForms.xml"/>
+					 <label text="Search the database based on your parameters"/>
                     </decorator-section>
                 </decorator-screen>
             </widgets>
